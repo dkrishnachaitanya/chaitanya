@@ -1,0 +1,13 @@
+Third party middleware
+
+1	Add a route which gets the userid and password from request body and compares
+	with some constant values. If found correct, display message successful or 
+	if login failed, take the user back to the login page.
+	
+2.	Modify above route if user enters wrong id and password, take the user back to the 
+	login page with error message in the form cookie.
+	
+3.	Modify above route to display the userid in welcome message if the login is 
+	successful(use sessions).
+4.	Accept user information and save it in the users scheme in mongo db database
+5.	Show all the users in tabular format.
